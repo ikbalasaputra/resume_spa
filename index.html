@@ -270,7 +270,7 @@
                 </div>
                 <form id="form-email" onsubmit="submitEmail(event)">
                     <div class="modal-body">
-                        <input class="form-control" id="modal_category" name="provider" type="text" value="">
+                        <input type="hidden" id="modal_category" name="provider" type="text" value="">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input class="form-control" id="name" type="text" name="Name" required>
@@ -321,6 +321,12 @@
                         </center>
                     </div>
 
+                    <div id="_voucher_waiting" class="form-group mb-3" style="display: none;">
+                        <center>
+                            <p> Mohon Maaf Voucher saat ini belum tersedia</p>
+                        </center>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
 
@@ -354,17 +360,24 @@
 
 
             if (modal_category === 'tokped') {
+                $('#_voucher_code').css('display', 'none')
+                $('#_voucher_download').css('display', 'none')
+                $('#_voucher_waiting').css('display', 'block')
                 sendData('Gunakan Kode Voucher di Tokopedia');
             } else if (modal_category === 'shopee') {
+                $('#_voucher_code').css('display', 'none')
+                $('#_voucher_download').css('display', 'none')
+                $('#_voucher_waiting').css('display', 'block')
                 sendData('Gunakan Kode Voucher di Shopee');
-
             } else if (modal_category === 'seller') {
                 $('#_voucher_code').css('display', 'none')
-                $('#_voucher_download').css('display', 'block')
+                $('#_voucher_download').css('display', 'none')
+                $('#_voucher_waiting').css('display', 'block')
                 sendData('Gunakan Kode Voucher di Seller Kami');
             } else if (modal_category === 'offlinestore') {
                 $('#_voucher_code').css('display', 'none')
-                $('#_voucher_download').css('display', 'block')
+                $('#_voucher_download').css('display', 'none')
+                $('#_voucher_waiting').css('display', 'block')
                 sendData('Gunakan Kode Voucher di Offline Store');
             }
 
