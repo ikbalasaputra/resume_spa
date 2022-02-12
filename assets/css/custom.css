@@ -1,0 +1,415 @@
+body {
+    font-family: 'helvetica', serif;
+}
+
+.product-item-options .item-option .icon-heart {
+    color: #f15e4f !important;
+}
+
+.btn-wishlist .icon-heart {
+    color: #f15e4f !important;
+}
+
+.top-bar {
+    background: url(https://resumecoffeejkt.com/assets/img/pattern-footer.png)
+}
+
+.navbar-nav {
+    display: none;
+    display: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 14px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-main .navbar {
+    background-color: #fff0;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-top .nav-top-left .logo a img {
+    max-width: 200px;
+    max-height: 120px;
+}
+
+.top-bar .navbar-nav .nav-item .nav-link {
+    background-color: white;
+    color: #000000;
+}
+
+#footer .footer-bottom {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #222222;
+    padding: 25px 0;
+
+
+}
+
+#footer .footer-bottom .copyright {
+    float: left;
+    text-align: left;
+}
+
+
+#footer .footer-bottom .footer-payment-icons {
+    float: right;
+    text-align: right;
+    padding-right: 41px;
+}
+
+#footer .footer-bottom .footer-payment-icons img {
+    float: right;
+    text-align: right;
+
+}
+
+#footer .footer-bottom .footer-payment-icons img:last-child {
+    margin: 0;
+}
+
+#footer .footer-bottom {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #222222;
+    padding: 29px 0;
+
+}
+
+.parallax {
+    background-image: url(assets/img/paralax.jpg);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+
+.section .title {
+    display: block;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.section-blog {
+    margin-top: 30px !important;
+    max-width: 100%;
+    overflow: hidden !important;
+    padding-bottom: 50px;
+}
+
+.section .title {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #000;
+    outline: 0 !important;
+}
+
+.scrollup i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    background-color: #333;
+    border-radius: .1875rem;
+    z-index: 999999;
+    margin-bottom: 78px;
+    margin-right: 15px;
+}
+
+.blog-content .post-content .post-text {
+    line-height: 28px;
+    font-size: 21px;
+}
+
+.blog-content .post-content .title {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.product-description .description {
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    overflow-wrap: break-word;
+}
+
+.section .title {
+    display: block;
+    font-size: 53px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+
+@media (max-width: 1023px) {
+    .section_kv .kv-flex .kv__info {
+        text-align: center;
+        padding-top: 108px;
+        padding-bottom: 108px;
+        max-height: 100vh;
+    }
+}
+
+.section_kv .kv-flex .kv__info {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .section_kv .kv-flex .kv__info,
+    .section_kv .kv-flex .kv__movie {
+        width: 100%;
+    }
+}
+
+
+.tb_hide {
+    display: inherit !important;
+    text-align: center;
+}
+
+
+@media (max-width: 1023px) {
+    .section_kv .kv-flex .sub-title {
+        text-align: center !important;
+        line-height: 1.7391304348;
+    }
+}
+
+.section_kv .kv-flex .sub-title {
+    font-size: 2.3em;
+    margin-bottom: 32px;
+    letter-spacing: .09em;
+}
+
+.section_kv .kv-flex .kv__txt {
+    line-height: 2.4285714286;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 1023px) {
+    .section_kv .kv-flex .kv__txt--en {
+        padding: 0 20px;
+
+    }
+}
+
+
+.section_kv .kv-flex .kv__txt--en {
+    line-height: 1.8571428571;
+}
+
+.bg-tokped {
+    position: relative;
+    background-color: #03AC0E;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #03AC0E;
+    color: white;
+    text-align: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.bg-tokped:hover {
+    background-color: white;
+    color: #03AC0E;
+
+
+}
+
+.bg-shopee {
+    position: relative;
+    background-color: #f53d2d;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #f53d2d;
+    color: white;
+    text-align: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.bg-shopee:hover {
+    background-color: white;
+    color: #f53d2d;
+}
+
+.bg-seller {
+    position: relative;
+    background-color: #008069;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #008069;
+    color: white;
+    text-align: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+
+
+}
+
+.bg-seller:hover {
+    background-color: white;
+    color: #008069;
+
+}
+
+.bg-store {
+    position: relative;
+    background-color: #000;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+
+
+
+}
+
+.bg-store:hover {
+    background-color: white;
+    color: #000;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.logo-coffee {
+    padding-top: 10px;
+    right: 1160px;
+    position: absolute;
+    top: -20px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgb(173, 168, 168));
+}
+
+.logo-coffee-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-banner {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .logo-coffee {
+        padding-top: 10px;
+        right: 287px;
+        position: absolute;
+        top: -20px;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px rgb(173, 168, 168));
+    }
+
+    .logo-coffee-bottom {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    
+
+    .bg-shopee {
+        top: 5px;
+    }
+
+    .bg-seller {
+        top: 10px;
+    }
+
+    .bg-store {
+        top: 15px;
+    }
+}
